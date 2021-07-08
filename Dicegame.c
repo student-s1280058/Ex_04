@@ -5,6 +5,9 @@
 int main(void){
   int i,total,n;
   char name[10];
+  
+  printf("-----Won/lost message modified-----\n");
+  
   printf("What is your name?\n");
   scanf("%s",name);
   printf("Hello, %s!\n", name);
